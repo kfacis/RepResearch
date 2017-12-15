@@ -2,7 +2,9 @@
 title: "Reproducible Research Week 2"
 author: "KF"
 date: "December 12, 2017"
-output: html_document
+output:
+  md_document:
+    variant: markdown_github
 ---
 
 ```{r setup, include=FALSE, cache = TRUE}
